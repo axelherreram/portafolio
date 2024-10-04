@@ -14,7 +14,8 @@ $path = TemplateController::path();
   <meta name="author" content="" />
   <title>Axel Herrera</title>
   <!-- Favicon-->
-  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="<?php echo $path ?>views/assets/img/icon-page.png" />
+
   <!-- Font Awesome icons (free version)-->
   <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
   <!-- Google fonts-->
